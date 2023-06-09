@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* //navbar css */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+  margin-left: 30px;
+
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+
+/* =============================
+==========footer============= */
+/* Footer CSS */
+
+
+.footer--container {
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 10%;
+  background-color: #90909089;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.footer--container h4 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.footer--container address {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.footer--container a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.footer--container a:hover {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ========================================= */
+/* =========register page ========= */
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+.category-card {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  border: 1px solid #fff;
+  color: #000;
+}
+
+.category-card:hover {
+  background-color: #c7c7c7;
+}
+
+.category-link {
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.category-card:hover .category-link {
+  color: #fff;
+}
